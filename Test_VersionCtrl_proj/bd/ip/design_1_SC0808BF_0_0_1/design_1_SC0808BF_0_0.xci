@@ -1,0 +1,135 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "design_1_SC0808BF_0_0",
+    "cell_name": "SC0808BF_0",
+    "component_reference": "trenz.biz:user:SC0808BF:1.0",
+    "ip_revision": "15",
+    "gen_directory": "../../../../../../Test_VersionCtrl_proj.gen/sources_1/bd/design_1/ip/design_1_SC0808BF_0_0_1",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "design_1_SC0808BF_0_0", "resolve_type": "user", "usage": "all" } ],
+        "C_GENERIC": [ { "value": "1", "resolve_type": "user", "format": "long", "usage": "all" } ]
+      },
+      "model_parameters": {
+        "C_GENERIC": [ { "value": "1", "resolve_type": "generated", "format": "long", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynquplus" } ],
+        "BASE_BOARD_PART": [ { "value": "trenz.biz:te0813_4eg_1e_tebf0808:part0:4.0" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xczu4eg" } ],
+        "PACKAGE": [ { "value": "sfvc784" } ],
+        "PREFHDL": [ { "value": "VHDL" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "E" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "15" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../Test_VersionCtrl_proj.gen/sources_1/bd/design_1/ip/design_1_SC0808BF_0_0_1" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../../../../../Desktop/vivado_projects/Test_VersionCtrl_proj/bd/ipshared" } ],
+        "SWVERSION": [ { "value": "2023.2" } ],
+        "SYNTHESISFLOW": [ { "value": "OUT_OF_CONTEXT" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "PS_AUX_DI": [ { "direction": "out" } ],
+        "PS_AUX_DO": [ { "direction": "in", "driver_value": "1" } ],
+        "PS_AUX_OE": [ { "direction": "in", "driver_value": "1" } ],
+        "PS_DP_HPD": [ { "direction": "out" } ],
+        "SC0": [ { "direction": "out" } ],
+        "SC5": [ { "direction": "in" } ],
+        "SC6": [ { "direction": "out" } ],
+        "SC7": [ { "direction": "out" } ],
+        "SC10_I": [ { "direction": "in" } ],
+        "SC10_O": [ { "direction": "out" } ],
+        "SC10_T": [ { "direction": "out" } ],
+        "SC11": [ { "direction": "out" } ],
+        "SC12": [ { "direction": "in" } ],
+        "SC13": [ { "direction": "in" } ],
+        "SC15": [ { "direction": "out" } ],
+        "SC14": [ { "direction": "out" } ],
+        "SC16": [ { "direction": "out" } ],
+        "SC17": [ { "direction": "out" } ],
+        "SC18": [ { "direction": "out" } ],
+        "SC19": [ { "direction": "in" } ],
+        "CAN_RX": [ { "direction": "out" } ],
+        "CAN_TX": [ { "direction": "in" } ],
+        "CAN_S": [ { "direction": "in" } ],
+        "LED_HD": [ { "direction": "in" } ],
+        "LED_XMOD2": [ { "direction": "in" } ],
+        "RGPIO_M_CLK": [ { "direction": "in", "driver_value": "0" } ],
+        "RGPIO_M_RX": [ { "direction": "out", "driver_value": "0" } ],
+        "RGPIO_M_TX": [ { "direction": "in", "driver_value": "0" } ],
+        "RGPIO_S_CLK": [ { "direction": "in", "driver_value": "0" } ],
+        "RGPIO_S_RX": [ { "direction": "out", "driver_value": "0" } ],
+        "RGPIO_S_TX": [ { "direction": "in", "driver_value": "0" } ]
+      },
+      "interfaces": {
+        "BASE": {
+          "vlnv": "xilinx.com:user:SC0808BF_bus:1.0",
+          "abstraction_type": "xilinx.com:user:SC0808BF_bus_rtl:1.0",
+          "mode": "master",
+          "port_maps": {
+            "SC5": [ { "physical_name": "SC5" } ],
+            "SC7": [ { "physical_name": "SC7" } ],
+            "SC6": [ { "physical_name": "SC6" } ],
+            "SC10_I": [ { "physical_name": "SC10_I" } ],
+            "SC15": [ { "physical_name": "SC15" } ],
+            "SC13": [ { "physical_name": "SC13" } ],
+            "SC14": [ { "physical_name": "SC14" } ],
+            "SC10_O": [ { "physical_name": "SC10_O" } ],
+            "SC11": [ { "physical_name": "SC11" } ],
+            "SC12": [ { "physical_name": "SC12" } ],
+            "SC10_T": [ { "physical_name": "SC10_T" } ],
+            "SC0": [ { "physical_name": "SC0" } ],
+            "SC17": [ { "physical_name": "SC17" } ],
+            "SC18": [ { "physical_name": "SC18" } ],
+            "SC16": [ { "physical_name": "SC16" } ],
+            "SC19": [ { "physical_name": "SC19" } ]
+          }
+        },
+        "RGPIO_MASTER_CPLD": {
+          "vlnv": "trenz.biz:user:RGPIO_EXT:1.0",
+          "abstraction_type": "trenz.biz:user:RGPIO_EXT_rtl:1.0",
+          "mode": "slave",
+          "port_maps": {
+            "TX": [ { "physical_name": "RGPIO_M_TX" } ],
+            "RX": [ { "physical_name": "RGPIO_M_RX" } ],
+            "CLK": [ { "physical_name": "RGPIO_M_CLK" } ]
+          }
+        },
+        "RGPIO_SLAVE_CPLD": {
+          "vlnv": "trenz.biz:user:RGPIO_EXT:1.0",
+          "abstraction_type": "trenz.biz:user:RGPIO_EXT_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "NUM_READ_OUTSTANDING": [ { "value": "", "value_src": "constant", "value_permission": "bd_and_user", "usage": "all" } ],
+            "NUM_WRITE_OUTSTANDING": [ { "value": "", "value_src": "constant", "value_permission": "bd_and_user", "usage": "all" } ]
+          },
+          "port_maps": {
+            "TX": [ { "physical_name": "RGPIO_S_TX" } ],
+            "RX": [ { "physical_name": "RGPIO_S_RX" } ],
+            "CLK": [ { "physical_name": "RGPIO_S_CLK" } ]
+          }
+        },
+        "CAN": {
+          "vlnv": "xilinx.com:interface:can:1.0",
+          "abstraction_type": "xilinx.com:interface:can_rtl:1.0",
+          "mode": "mirroredMaster",
+          "port_maps": {
+            "TX": [ { "physical_name": "CAN_TX" } ],
+            "RX": [ { "physical_name": "CAN_RX" } ]
+          }
+        }
+      }
+    }
+  }
+}
