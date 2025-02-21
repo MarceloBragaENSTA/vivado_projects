@@ -24,9 +24,18 @@
 !*.inc
 !*.py
 !*.xdc
+!*.jpg
+!*.png
 
 # ...even if they are in subdirectories
 !*/
+
+# keep these
+!/**/ip_repo/
+!*.xml
+!*.xit
+!.*ttcl
+
 
 # Except for xilinx auto-generated files
 /**/*.srcs/
@@ -42,7 +51,9 @@
 /**/RemoteSystemsTempFiles/
 /**/doc/
 /**/webtalk/
-/**/hdl/
+# /**/hdl/
+/**/ipshared/
 /**/demo_tb/
-/**/misc/
+# /**/misc/
 /**/*.gen/sources_1/bd/
+
