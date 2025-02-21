@@ -1408,8 +1408,8 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>emul_demux_SM_v1.0</xilinx:displayName>
-      <xilinx:coreRevision>34</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2025-02-20T13:03:34Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>35</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2025-02-21T08:53:39Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2023.2</xilinx:xilinxVersion>

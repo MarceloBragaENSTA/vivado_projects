@@ -37,6 +37,7 @@
 !.*ttcl
 !*.mdd
 !Makefile
+/**/*.gen/
 
 
 # Except for xilinx auto-generated files
