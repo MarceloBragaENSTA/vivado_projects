@@ -30,11 +30,13 @@
 # ...even if they are in subdirectories
 !*/
 
-# keep these
+# keep these : Chnages made to make it work
 !/**/ip_repo/
 !*.xml
 !*.xit
 !.*ttcl
+!*.mdd
+!Makefile
 
 
 # Except for xilinx auto-generated files

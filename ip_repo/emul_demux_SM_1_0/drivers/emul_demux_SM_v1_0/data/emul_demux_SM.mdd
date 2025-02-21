@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER emul_demux_SM
+	OPTION supported_peripherals = (emul_demux_SM);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = emul_demux_SM;
+END DRIVER
