@@ -37,7 +37,7 @@
 !.*ttcl
 !*.mdd
 !Makefile
-
+!*.sh
 
 # Except for xilinx auto-generated files
 /**/*.srcs/
