@@ -37,7 +37,6 @@
 !.*ttcl
 !*.mdd
 !Makefile
-/**/*.gen/
 
 
 # Except for xilinx auto-generated files
@@ -59,4 +58,4 @@
 /**/demo_tb/
 # /**/misc/
 /**/*.gen/sources_1/bd/
-
+/**/*.gen/
