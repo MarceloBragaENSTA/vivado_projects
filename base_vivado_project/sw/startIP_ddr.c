@@ -32,7 +32,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 //-----------headers for the hardware design------------
-#include "platform.h"
+#include "../../../../workspace_tests/testEmulDemux_app/src/platform.h" //platform created by Vitis in workspace
 #include "xparameters.h"
 
 //-----------UART debug console-------------------------------
